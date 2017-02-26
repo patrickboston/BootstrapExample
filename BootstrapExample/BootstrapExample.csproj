@@ -66,7 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\StyleSheet.css" />
+    <Content Include="Example1.aspx" />
+    <Content Include="Example2.aspx" />
     <Content Include="packages.config" />
+    <Content Include="Bootstrap.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,6 +82,27 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bootstrap.Master.cs">
+      <DependentUpon>Bootstrap.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bootstrap.Master.designer.cs">
+      <DependentUpon>Bootstrap.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Example1.aspx.cs">
+      <DependentUpon>Example1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Example1.aspx.designer.cs">
+      <DependentUpon>Example1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Example2.aspx.cs">
+      <DependentUpon>Example2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Example2.aspx.designer.cs">
+      <DependentUpon>Example2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>

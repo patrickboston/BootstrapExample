@@ -1,0 +1,31 @@
+﻿body {
+    margin-top: 65px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.colored {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+}
+
+label.required:after {
+    content: " *";
+    color: red;
+}
+
+.btn-custom {
+    color: #545137;
+    background-color: #FFE900;
+}
+
+/*Chnages navbar color*/
+/*.navbar {
+    background-color: #000000;
+}*/
