@@ -11,5 +11,5 @@ Example for Capstone 1
 	<li>Boostrap needs jQuery to run, make sure you reference it before your Boostrap JS reference</li>
 	<li>Reference your external style sheets <strong>after</strong> the Bootstrap CSS reference</li>
 	<li>Placing your JS reference before the ending body tag usually helps the page load faster</li>
-	<li>Be sure to add <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1" gt;</code> to your head so your page is mobile first
+	<li>Be sure to add <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code> to your head so your page is mobile first
 </ul>
