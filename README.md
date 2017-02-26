@@ -1,7 +1,7 @@
 # BootstrapExample
 Example for Capstone 1
 
-<p>This is a basic example to show you how to create your user interface with boostrap.</p>
+<p>This is a basic example to show you how to create your user interface with Bootstrap</p>
 <br>
 <h3>Important Things to Remember</h3>
 <ul>
