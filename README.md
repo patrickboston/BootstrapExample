@@ -5,7 +5,7 @@ Example for Capstone 1
 <br>
 <h3>Important Things to Remember</h3>
 <ul>
-	<li>When creating your new ASP.NET Visual Studio Solution, be sure to <strong>uncheck "Create directory for your solution."</strong> This will help you for Capstone 2</li>
+	<li>When creating your new ASP.NET Visual Studio Solution for your actual project UI, be sure to <strong>uncheck "Create directory for your solution."</strong> This will help you for Capstone 2</li>
 	<li>Use <strong>ASP.NET controls</strong>, not HTML inputs (unless it's strictly something client-side ex. Modal)</li>
 	<li>Make sure you add the references in your ASP pages for the Bootstrap CSS and JS. You can add the files to your project or use a CDN</li>
 	<li>Boostrap needs jQuery to run, make sure you reference it before your Boostrap JS reference</li>
